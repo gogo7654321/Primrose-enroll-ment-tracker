@@ -1,11 +1,23 @@
-<div align="center">
+# Primrose Enrollment Manager
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Digital enrollment system built for a family-owned Primrose Schools franchise that was managing everything on paper.
 
-  <h1>Built with AI Studio</h2>
+## What it does
+- Manages student enrollment and waitlists
+- Tracks tuition payments and billing
+- Staff and classroom management
+- Parent communication portal
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Tech Stack
+- Next.js, React, TypeScript, Tailwind CSS
+- Firebase (Auth, Firestore, Hosting)
+- Google Cloud Platform
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Background
+I have family that Primrose franchise. The school was using paper forms and the buggy primrose website for everything - enrollment, payments, scheduling. Built this to replace that entirely. Three locations in the local franchise community now use it.
 
-</div>
+## Running locally
+```bash
+npm install
+npm run dev
+```
